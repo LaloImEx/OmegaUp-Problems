@@ -30,14 +30,12 @@ int main()
 {
     int n; cin>>n;
     vector<lli> c;
-    lli ct = 0,inp;
-
+    lli inp,ans;
+    
     while(cin>>inp){
-        c.push_back(inp);
-        ct += inp;
+        c.push_back(inp);       
     }
-
-    lli res;
-    res = bns(c);
-    cout<<res;
+    
+    ans = bns(c);
+    cout<<ans;
 }
